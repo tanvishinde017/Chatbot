@@ -1,0 +1,17 @@
+2026-02-02 15:06:58,194 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-02 15:06:58,195 - [33mPress CTRL+C to quit[0m
+2026-02-02 15:06:58,197 -  * Restarting with stat
+2026-02-02 15:07:00,622 -  * Debugger is active!
+2026-02-02 15:07:00,641 -  * Debugger PIN: 141-556-208
+2026-02-02 15:10:19,161 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-02 15:10:19,162 - [33mPress CTRL+C to quit[0m
+2026-02-02 15:10:19,164 -  * Restarting with stat
+2026-02-02 15:10:21,484 -  * Debugger is active!
+2026-02-02 15:10:21,494 -  * Debugger PIN: 141-556-208
+2026-02-02 15:11:06,717 - 127.0.0.1 - - [02/Feb/2026 15:11:06] "GET / HTTP/1.1" 200 -
+2026-02-02 15:11:06,834 - 127.0.0.1 - - [02/Feb/2026 15:11:06] "GET /static/style.css HTTP/1.1" 200 -
+2026-02-02 15:11:07,292 - 127.0.0.1 - - [02/Feb/2026 15:11:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-02 15:11:15,055 - User: ghi | Bot: Sorry, I didn’t get that \U0001f605
+2026-02-02 15:11:15,057 - 127.0.0.1 - - [02/Feb/2026 15:11:15] "POST /chat HTTP/1.1" 200 -

@@ -9,11 +9,15 @@ training_data = {
         "You can call me PyBot!"
     ],
     "python": [
-        "Python is excellent for AI, ML, and backend 🚀",
-        "Python makes development fast and fun!"
+        "Python is great for AI, ML, and backend 🚀",
+        "Python makes development easy and powerful!"
     ],
     "goodbye": [
         "Goodbye 😊",
         "See you soon 👋"
+    ],
+    "fallback": [
+        "🤔 I’m not sure I understood that. Can you rephrase?",
+        "Sorry, I didn’t get that 😅"
     ]
 }

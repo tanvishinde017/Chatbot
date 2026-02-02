@@ -1,9 +1,17 @@
 from flask import Flask, render_template, request, jsonify
+import logging
+
 from backend.model import get_response
+from config import Config
 
 app = Flask(__name__)
+app.config.from_object(Config)
 
-chat_history = []
+logging.basicConfig(
+    filename="chatbot.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(message)s"
+)
 
 @app.route("/")
 def index():
@@ -11,18 +19,12 @@ def index():
 
 @app.route("/chat", methods=["POST"])
 def chat():
-    user_message = request.json["message"]
-    bot_message = get_response(user_message)
+    user_message = request.json.get("message")
+    bot_reply = get_response(user_message)
 
-    chat_history.append({
-        "user": user_message,
-        "bot": bot_message
-    })
+    logging.info(f"User: {user_message} | Bot: {bot_reply}")
 
-    return jsonify({
-        "reply": bot_message,
-        "history": chat_history
-    })
+    return jsonify({"reply": bot_reply})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=Config.DEBUG)
