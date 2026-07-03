@@ -3,3 +3,11 @@ gunicorn
 requests
 python-dotenv
 openai
+Flask
+scikit-learn
+numpy
+pandas
+nltk
+joblib
+requests
+python-dotenv

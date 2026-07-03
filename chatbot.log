@@ -15,3 +15,30 @@
 2026-02-02 15:11:07,292 - 127.0.0.1 - - [02/Feb/2026 15:11:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2026-02-02 15:11:15,055 - User: ghi | Bot: Sorry, I didn�t get that \U0001f605
 2026-02-02 15:11:15,057 - 127.0.0.1 - - [02/Feb/2026 15:11:15] "POST /chat HTTP/1.1" 200 -
+2026-07-03 05:34:45,771 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-03 05:34:45,772 - [33mPress CTRL+C to quit[0m
+2026-07-03 05:34:45,772 -  * Restarting with stat
+2026-07-03 05:34:47,575 -  * Debugger is active!
+2026-07-03 05:34:47,584 -  * Debugger PIN: 135-881-906
+2026-07-03 05:35:20,990 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-03 05:35:20,990 - [33mPress CTRL+C to quit[0m
+2026-07-03 05:35:20,991 -  * Restarting with stat
+2026-07-03 05:35:22,490 -  * Debugger is active!
+2026-07-03 05:35:22,490 -  * Debugger PIN: 135-881-906
+2026-07-03 05:35:27,312 - 127.0.0.1 - - [03/Jul/2026 05:35:27] "GET / HTTP/1.1" 200 -
+2026-07-03 05:35:27,490 - 127.0.0.1 - - [03/Jul/2026 05:35:27] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-03 05:35:27,643 - 127.0.0.1 - - [03/Jul/2026 05:35:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-03 05:35:32,278 - User: hiiii | Bot: 🤔 I’m not sure I understood that. Can you rephrase?
+2026-07-03 05:35:32,279 - 127.0.0.1 - - [03/Jul/2026 05:35:32] "POST /chat HTTP/1.1" 200 -
+2026-07-03 05:35:40,859 - User: are u mad | Bot: Sorry, I didn’t get that 😅
+2026-07-03 05:35:40,859 - 127.0.0.1 - - [03/Jul/2026 05:35:40] "POST /chat HTTP/1.1" 200 -
+2026-07-03 05:35:46,732 - User: hello | Bot: 🤔 I’m not sure I understood that. Can you rephrase?
+2026-07-03 05:35:46,733 - 127.0.0.1 - - [03/Jul/2026 05:35:46] "POST /chat HTTP/1.1" 200 -
+2026-07-03 05:35:51,312 - User: bye | Bot: Sorry, I didn’t get that 😅
+2026-07-03 05:35:51,313 - 127.0.0.1 - - [03/Jul/2026 05:35:51] "POST /chat HTTP/1.1" 200 -
+2026-07-03 05:35:55,394 - User: hatt | Bot: Sorry, I didn’t get that 😅
+2026-07-03 05:35:55,394 - 127.0.0.1 - - [03/Jul/2026 05:35:55] "POST /chat HTTP/1.1" 200 -
+2026-07-03 05:36:00,916 - User: pagal | Bot: 🤔 I’m not sure I understood that. Can you rephrase?
+2026-07-03 05:36:00,917 - 127.0.0.1 - - [03/Jul/2026 05:36:00] "POST /chat HTTP/1.1" 200 -
