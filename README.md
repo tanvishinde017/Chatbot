@@ -1,6 +1,6 @@
 # 🤖 Advanced AI Chatbot (Python)
 
-A machine learning based chatbot built using Python, Flask, and Scikit-lear n. 
+A machine learning based chatbot built using Python, Flask, and Scikit-learn. 
 
 ## 🚀 Features
 - Flask backend
